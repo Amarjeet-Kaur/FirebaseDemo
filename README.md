@@ -11,7 +11,7 @@ The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSO
 <code snippet>
 	
 <Screenshot>
-![Firebase Database Screenshot](Screenshots/Capture.png)
+<img src="https://user-images.githubusercontent.com/38749215/63515232-f6f1de80-c507-11e9-8ab4-239ac2e4ad6f.PNG">
 1. Create a project in Android and register that project with Firebase and download the  JSON File. Add that File to the Android Project.
 2. In Android App, add dependency for Firebase Database.
 3. In main class, get the reference of the Database.
