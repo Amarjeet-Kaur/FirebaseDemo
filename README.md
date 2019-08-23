@@ -15,19 +15,19 @@ The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSO
 <br><br><br><img src="https://user-images.githubusercontent.com/38749215/63517907-8483fd00-c50d-11e9-9ad3-fc05be6fa1ad.PNG"></p><br>
 <h4>Usage</h4><br>
 <p>
-1. Create a project in Android and register that project with Firebase and download the JSON file, add that File to the Android Project.<br>
-2. In Android App, add dependency for Firebase Database.<br>
+1. Create a project in android and register that project with firebase and download the <q>google-services.json</q> file, add that file to the android project.<br>
+2. In android app, add dependency for firebase database.<br>
 <blockquote>
 	dependencies{<br> 
 	implementation 'com.google.firebase:firebase-database:11.8.0'<br>
 	}<br>
 	apply plugin: 'com.google.gms.google-services'
 	</blockquote><br>
-3. In main class, get the reference of the Database.<br>
+3. In main class, get the reference of the database.<br>
 <blockquote>
 	  mMessageReference = FirebaseDatabase.getInstance().getReference();
 </blockquote>
-4. To fetch data from Database, add child event listener.</br>
+4. To fetch data from database, add child event listener.</br>
 5. Add that data in recycler view.</p><br>
 <p>
 Version: 1.0<br>
